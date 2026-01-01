@@ -22,7 +22,7 @@ class PCVFlatApp(ctk.CTk):
 
         # 左側メニュー
         self.sidebar = ctk.CTkFrame(self, width=200, corner_radius=0)
-        self.sidebar.grid(row=0, column:0, sticky="nsew")
+        self.sidebar.grid(row=0, column=0, sticky="nsew")
         
         self.logo_label = ctk.CTkLabel(self.sidebar, text="PC vFlat Tool", font=ctk.CTkFont(size=20, weight="bold"))
         self.logo_label.pack(pady=20)
